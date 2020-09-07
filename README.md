@@ -15,3 +15,7 @@ DKMS instructions mainly obtained from [here][2].
 
 [1]: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
 [2]: https://askubuntu.com/a/408616/45442
+
+
+sudo depmod -a
+sudo modprobe r8125
